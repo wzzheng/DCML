@@ -62,7 +62,7 @@ online_products
 * touchvision 0.5.0
 
 ## Training
-Training is done by using 'mian.py', with settings available in 'parameters.py'. The main parameters that control our compositiors and ensembles are '--compos_num' and '--ensemble_num'. 
+Training is done by using `main.py`, with settings available in 'parameters.py'. The main parameters that control our compositiors and ensembles are '--compos_num' and '--ensemble_num'. 
 For example, we initialize the '--compos_num' to 4 and '--ensemble_num' to 4. More compositions are worth trying.
 
 To train the DCML model with margin loss on CUB200, run this command:
