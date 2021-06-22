@@ -7,7 +7,7 @@ Paper: https://arxiv.org/abs/2002.08473
 Repo: https://github.com/Confusezius/Revisiting_Deep_Metric_Learning_PyTorch
 
 Architecturally, our DCML framework is as follows:
-![Architecture](Image/framework.PNG)
+![Architecture](Image/framework.png)
 
 ## Datasets 
 
