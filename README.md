@@ -69,16 +69,16 @@ To train the DCML model with margin loss on CUB200, run this command:
 
 ```
 python main.py --dataset cub200 --tau 55 --gamma 0.2 --gpu 0 --seed 0 --compos_num 4 --ensemble_num 4 --embed_dim 128 --bs 100
-                           --n_epochs 300 --samples_per_class 2 --loss margin --batch_mining distance --arch resent50_frozen_normalize
+               --n_epochs 300 --samples_per_class 2 --loss margin --batch_mining distance --arch resent50_frozen_normalize
 ```
 
 Besides, our architecture can be implemented in the diva framework (http://arxiv.org/abs/2004.13458) with this command:
 
 ```
 python main.py --dataset cub200 --tau 55 --gamma 0.2 --gpu 0 --seed 0 --compos_num 4 --ensemble_num 4 --embed_dim 128 --bs 100
-                           --n_epochs 300 --samples_per_class 2 --loss margin --batch_mining distance --arch resent50_frozen_normalize
-                           --diva_ssl fast_moco --lr 0.000015 --evaltypes all --diva_rho_decorrelation 1500 1500 1500 --diva_features discriminative selfsimilarity shared intra
-                           --diva_moco_temperature 0.01 --diva_moco_n_key_batches 30 --diva_aplha_ssl 0.5 diva_alpha_shared 0.3 --diva_alpha_intra 0.3
+               --n_epochs 300 --samples_per_class 2 --loss margin --batch_mining distance --arch resent50_frozen_normalize
+               --diva_ssl fast_moco --lr 0.000015 --evaltypes all --diva_rho_decorrelation 1500 1500 1500 --diva_features discriminative selfsimilarity shared intra
+               --diva_moco_temperature 0.01 --diva_moco_n_key_batches 30 --diva_aplha_ssl 0.5 diva_alpha_shared 0.3 --diva_alpha_intra 0.3
 ```
 
 
