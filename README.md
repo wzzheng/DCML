@@ -88,3 +88,7 @@ python main.py --dataset cub200 --tau 55 --gamma 0.2 --gpu 0 --seed 0 --compos_n
 ## Device 
 
 We tested our code on a linux machine with an Nvidia RTX 2080ti GPU card. We recommend using a GPU card with a memory > 11GB.
+
+## Code Reference
+Revisiting_Deep_Metric_Learning_PyTorch (https://github.com/Confusezius/Revisiting_Deep_Metric_Learning_PyTorch) by Confusezius.
+
